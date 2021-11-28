@@ -1,5 +1,5 @@
 @media screen and (max-width: 950px){
-    .flex-container{
+    .cabecalho{
         flex-direction: column;
     }
     .secoes{
@@ -16,8 +16,8 @@
         flex-direction: column;
     }
 }
-@media screen and (max-width: 750px){
-    .flex-container{
+@media screen and (max-width: 700px){
+    .cabecalho{
         flex-direction: column;
     }
     .secoes{
@@ -35,7 +35,7 @@
     }
 }
 @media screen and (max-width: 600px){
-    .flex-container{
+    .cabecalho{
         flex-direction: column;
     }
     .secoes{
