@@ -8,22 +8,40 @@ body{
 	flex-direction:row;
 	align-items:center;
 	justify-content: space-between;
-	height: 105px;
+	height: 100px;
+	padding: 20px;
 	background-color:#2c3e50;
 	position:fixed;
 	width:100%;
 }
 
 	/*Logotipo*/
-#full_stack
+.habilidades{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.full_stack
 {
-	/*padding-top:15px;*/
-	/*padding-left: 60px;*/
-	margin-left: 40px;
-	font-size: 40px;
+	display: flex;
+	font-size: 30px;
 	color: white;
 	font-family: 'minhafonte',Arial Black;
 	text-transform: uppercase;
+	justify-content: center;
+}
+
+.front,.back,.movel{
+	margin-left: 20px;
+}
+.barra{
+	display: flex;
+}
+.icone-menu{
+	display:none;
+	height:auto;
+	width: 50px;
+	margin-top: 10px;
 }
 header nav{
 	margin-right: 40px;
@@ -34,21 +52,15 @@ header nav{
   src: url("fonts/HAPPY DONUTS ITALIC.otf");
 }
 
-
-.links{
+.links {
 	color: white;
-	width: 100px;
-	border-radius: 45px;
-	margin: 5px;
-	padding: 12px;
-	text-align: center;
 	text-decoration: none;
 	font-family: 'Montserrat', Arial black;
-	background-color:#34495e;
-	
+	margin: 10px;
+	text-transform: uppercase;
 }
 .links:hover{
-	background-color:#1abc9c;
+	color:#1abc9c;
 }
 
 		/*corpo*/
@@ -70,13 +82,16 @@ header nav{
 	border-radius: 50%;
 }
 .foto-perfil{
+	margin-top: 60px;
 	display: flex;
+	text-align: center;
 	justify-content: center;
 }
 
 .descricao p{
 	color: white;
 	font-size: 30px;
+	text-align: center;
 	text-transform: uppercase;
 	font-family: Arial Black;
 }
@@ -94,21 +109,7 @@ header nav{
 	border-radius: 20px;
 	margin: 15px;
 }
-/*
-.back-end{
-	height: 350px;
-	width: 350px;
-	border: 1px solid #34495e;
-	border-radius: 20px;
-	margin: 15px;
-}
-.mobile{
-	height: 350px;
-	width: 350px;
-	border: 1px solid #34495e;
-	border-radius: 20px;
-	margin: 15px;
-}*/
+
 .titulo{
 	text-align: center;
 	color:#34495e ;
@@ -119,7 +120,7 @@ header nav{
 
 .rodape{
 	background-color: #2c3e50;
-	height: 243px;
+	height:400px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -127,7 +128,7 @@ header nav{
 }
 .secao{
 	border: 1px solid white;
-	margin: 20px;
+	margin: 10px;
 	padding: 20px;
 	font-family: 'Montserrat', Arial;
 	color: white;
